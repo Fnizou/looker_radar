@@ -1,17 +1,25 @@
 {
-  "dataStudio": {
-    "name": "Radar Chart D3",
-    "company": "fnizou"
-  },
-  "components": {
-    "viz": {
-      "url": "https://fnizou.github.io/looker_radar/index.js"
-    }
-  },
-  "scripts": [
-    "https://d3js.org/d3.v7.min.js"
-  ],
-  "style": {
-    "url": "https://fnizou.github.io/looker_radar/index.css"
-  }
+    "name": "Fnizou",
+    "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+    "organization": "Looker Studio Codelab",
+    "organizationUrl": "https://url",
+    "termsOfServiceUrl": "https://url",
+    "supportUrl": "https://url",
+    "packageUrl": "https://url",
+    "privacyPolicyUrl": "https://url",
+    "description": "Community Visualization Codelab",
+    "devMode": true,
+    "components": [
+        {
+            "id": "tableChart",
+            "name": "Table",
+            "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+            "description": "A simple table chart.",
+            "resource": {
+                "js": "https://fnizou.github.io/looker_radar/viz-codelab.js",
+                "config": "https://fnizou.github.io/looker_radar/viz-codelab.json",
+                "css": "https://fnizou.github.io/looker_radar/viz-codelab.css"
+            }
+        }
+    ]
 }
