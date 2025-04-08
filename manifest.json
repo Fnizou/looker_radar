@@ -1,0 +1,18 @@
+{
+  "dataStudio": {
+    "name": "Radar Chart D3",
+    "company": "fnizou",
+    "logoUrl": "https://fnizou.com/img/calendle.jpg"
+  },
+  "components": {
+    "viz": {
+      "url": "index.js"
+    }
+  },
+  "scripts": [
+    "https://d3js.org/d3.v7.min.js"
+  ],
+  "style": {
+    "url": "index.css"
+  }
+}
